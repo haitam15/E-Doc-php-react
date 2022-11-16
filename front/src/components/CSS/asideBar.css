@@ -1,0 +1,80 @@
+
+
+.asideBar{
+    margin-top:20px;
+    background-color: #6100d4;
+    width:15%;
+    height:590px;
+    display: flex;
+    flex-direction: column;
+    border-radius:50px;
+    margin-left: 10px;
+    align-items:center;
+    position: fixed;
+}
+
+.profile{
+    margin-top:8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile img{
+    border: solid 3px #fff;
+    width: 150;
+    height: 150px;
+    border-radius:300px;
+    padding:10px;
+    background-color: #95D1CC;
+
+}
+
+.profile p{
+    margin-top:10px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: rgba(255,255,255);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.content i{
+    width: 20px;
+    height: 20px;
+}
+
+.Navigation{
+    background-color: #162349;
+    border-radius:30px 30px 50px 50px;
+    display :flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 100%;
+    width:100%;
+}
+
+.lineInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    cursor : pointer;
+}
+
+.lineInfo:hover{
+    background-color: rgb(21, 241, 230);
+    border-radius: 20px;
+}
+
+.lineInfo p{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.l5{
+    margin-top:15px;
+}
+

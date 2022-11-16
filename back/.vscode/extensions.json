@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "salesforce.salesforcedx-vscode-apex",
+        "salesforce.salesforcedx-vscode-lwc"
+    ]
+}

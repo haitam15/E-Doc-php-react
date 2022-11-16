@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(154,184,219,1) 100%);
+    height:690px;
+}
+
+.Welcome{
+    display: flex;
+    flex-direction:column;
+    margin:0;
+    top:0;
+    left:0;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(154,184,219,1) 100%);
+    height:690px;
+}
+
+
+.title{
+    width:100%;
+    margin-top:50px;
+}
+
+.title h2{
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing:5px;
+    text-transform: uppercase;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.rounds{
+    margin-top:80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.round{
+    padding:10px;
+    cursor: pointer;
+}
+
+
+.round img{
+    border: solid 3px #000;
+    width: 150;
+    height: 150px;
+    border-radius:300px;
+    padding:10px;
+    background-color: #95D1CC;
+}
+
+.round img:hover{
+    background-color: #eee;
+    transition: .5s
+}
+
+.roundTitle{
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+a{
+    text-decoration:none;
+}

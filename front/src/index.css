@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* utility */
+
+.container {
+  max-width: 1250px;
+  margin: auto;
+}
+
+.bg-primary {
+  background: #003399;
+  color: #fff;
+}
+.l-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.text-primary {
+  color: #003399;
+}
+
+.form-group {
+  padding: 0.5rem;
+}
+.form-group label {
+  display: block;
+}
+.form-group input {
+  margin-top: 0.5rem;
+  padding: 0.7rem;
+  width: 100%;
+}
+
+.btn {
+  margin: 0.5rem 0;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #333;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+}
+
+.btn-primary {
+  background: #003399;
+}
+
+.btn-block {
+  width: 100%;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.clr {
+  float: none;
+}
+
+/* navbar */
+
+#main-nav .container {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+#main-nav ul {
+  display: flex;
+}
+
+#main-nav ul li {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+/* login */
+
+/* #login {
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#login h1 {
+  text-align: center;
+}
+
+#login .container {
+  width: 500px;
+} */
+
+/* home */
+
+#home .container {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  grid-gap: 2rem;
+}
+
+#home form {
+  width: 100%;
+}
+
+#home h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#home form div {
+  width: 100%;
+}
+
+#home small {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+#home form div input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+#home .container > div:last-child input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem auto;
+}
+
+#home .card {
+  padding: 1.5rem;
+  background: #eee;
+  margin: 0.5rem;
+  border: 1px solid #ddd;
+}
+
+#home .card span {
+  float: right;
+  background: green;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+#home .card > h1 {
+  float: left;
+  margin-bottom: 1rem;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex p {
+  margin-right: 0.5rem;
+}
+

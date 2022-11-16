@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+        *{
+            margin:0;  
+            padding:0;
+        }        
+        body, html{height:100%;}
+            
+        body{   
+            text-align:center;
+        }
+        #main{
+            max-width:1280px;
+            min-height:100%;
+            margin:0 0;
+            position:relative;
+        }
+        .header {
+            width: 25%;
+            
+        }
+        .header h2{
+            text-transform: uppercase;
+        }
+        .header .specialite {
+            text-align: center;
+            text-transform: uppercase;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        }
+       .header .separator{
+           height: 2px;
+           width: 25%;
+           background-color: #000;
+           margin: 3px auto;
+       }
+
+       p{
+           text-align: center;
+           text-transform: capitalize;
+       }
+       .body h1{
+           text-align: center;
+           margin-top: 10px;
+       }
+       .footer{
+        position:absolute;
+        bottom:0;
+        padding-top:50px;
+        padding-bottom:50px;
+        width: 100%;
+       }
+       .footer p{
+           text-align: center;
+       }
+    </style>
+    <title>Certificat Médical</title>
+</head>
+<body>
+    <div id="main">
+        <div class="header">
+            <h2><p>Docteur Claude Exemple</p></h2>
+            <div class="specialite">Ophtamologiste</div>
+            <div class="separator"></div>
+            <div class="description"><p>Maldies et chirurgie des yeux Correction de la vision par laser</p></div>
+            <div class="separator"></div>
+            <div class="adress"><p>10 Rue des belles Feuilles <br/> 69400 Paris France</p></div>
+            <div class="tel"><p>T.E.L: 04.74.00.00.00</p></div>
+            <div class="separator"></div>
+        </div>
+        <div class="body">
+            <h1>Ordonnance</h1>
+        </div>
+        <div class="footer">
+            <p>Membre d'une association de gestion Agree Le reglement par cheque est acceptee</p>
+            <p>&copy;2021</p>
+        </div>
+    </div>
+</body>
+</html>

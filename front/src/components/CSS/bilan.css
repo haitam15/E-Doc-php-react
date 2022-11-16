@@ -1,0 +1,12 @@
+.bilan{
+    margin:4% auto;
+    width:60%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.bilan h2{
+    text-align:center;
+}

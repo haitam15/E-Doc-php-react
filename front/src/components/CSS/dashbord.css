@@ -1,0 +1,91 @@
+.DashbordContent{
+    width : 70%;
+    margin-left:22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DashTitle{
+    width : 40%;
+    background-color: rgba(238, 238, 238, 0.521);
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.DashTitle h1{
+    text-transform: uppercase;
+    font-weight:bold;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+.Hello{
+    margin-top:80px;
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    border-radius:50px;
+    padding:15px;
+
+}
+
+.Hello .line{
+    height:3px;
+    background-color:black;
+    width:250px;
+    margin-left: 98px;
+}
+
+.helloText span{
+    color:rgb(0, 238, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.cardsInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 20px;
+}
+
+.cardsInfo .Card{
+    background-color:rgb(243, 102, 179);
+    margin-right: 5px;
+    border-radius:30px;
+    display: flex;
+    flex-direction:row;
+    margin: 0.5rem;
+}
+
+.cardsInfo .Card .CardTitle{
+    font-size: 1rem;
+    color:white;
+}
+
+.cardsInfo .Card .CArdNumber{
+    font-size:3.75rem;
+    color:white;
+    padding-right: 4px;
+}
+
+
+ @media screen and (max-width: 768px){
+    .cardsInfo{
+        flex-direction: column;
+    }
+    .cardsInfo .Card{
+        flex-direction: column;
+    }
+    .cardsInfo .Card .CArdNumber{
+        text-align: center;
+    }
+    .cardsInfo .Card .CardTitle{
+        text-align: center;
+    }
+    .DashTitle h1{
+        font-size: 1.05rem;
+    }
+} 
